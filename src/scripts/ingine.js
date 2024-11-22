@@ -4,6 +4,7 @@ const state = {
         enemy: document.querySelector(".enemy"),
         timeLeft: document.querySelector("#time-left"),
         score: document.querySelector("#score"),
+        life: document.querySelector("#life"),
     },
 
     values:{
@@ -11,6 +12,7 @@ const state = {
         hitPosition: 0,
         result: 0,
         curretTime: 60,
+        life: 4,
     },
     actions: {
         timerId: setInterval(randomSquare, 1000),
@@ -58,14 +60,27 @@ function addListenerHitbox(){
                 state.view.score.textContent = state.values.result;
                 state.values.hitPosition = null;
                 playSound("hit");
+            } else {
+                decreaseLife();
             }
         })
     });
 }
 
+function decreaseLife() {
+    state.values.life --;
+    state.view.life.textContent = `x${state.values.life}`;
+    if (state.values.life <= 0) {
+        alert("Game Over! Você perdeu toda a sua vida.");
+        clearInterval(state.actions.timerId);
+        clearInterval(state.actions.countDownTimerId);
+    }
+}
+
 function initialize() {
     moveEnemy();
     addListenerHitbox();
+    decreaseLife();
 }
 
 initialize();
