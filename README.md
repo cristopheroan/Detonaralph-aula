@@ -28,5 +28,17 @@
    <img align="center" alt="Cris-HTML" height="90" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
           
    <img align="center" alt="Cris-HTML" height="90" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+
+<p> 
+  <div style="display: inline-block; border: 1px solid #000; padding: 10px; margin: 10px; background-color: #f0f0f0; width: 200px; height: 10px; text-align: center;"> <strong>HTML5:</strong> Para a estruturação da página. 
+  </div> 
+  <div style="display: inline-block; border: 1px solid #000; padding: 10px; margin: 10px; background-color: #f0f0f0; width: 200px; text-align: center;"> <strong>CSS3:</strong> Para a estilização dos elementos visuais. 
+  </div>
+  <div style="display: inline-block; border: 1px solid #000; padding: 10px; margin: 10px; background-color: #f0f0f0; width: 200px; text-align: center;"> <strong>JavaScript:</strong> Para a lógica e interatividade do jogo. 
+  </div>
+</p>
                
-</div>
+
+
+
+
