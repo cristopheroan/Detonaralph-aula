@@ -20,40 +20,47 @@
 
 
     <div class="container">
-        <div class="menu">
-            <div class="menu-time">
-                <h2 style="color: red;">Time Left</h2>
-                <h2 id="time-left">0</h2>
-            </div>
-
-            <div class="menu-score">
-                <h2 style="color: red;">Your Score</h2>
-                <h2 id="score">0</h2>
-            </div>
-
-            <div class="menu-lives">
-                <img src="./src/images/player.png" alt="foto do jogador" height="60px" />
-                <h2 id="life">x3</h2>
-            </div>
+        <div id="menu" class="menu">
+            <button id="play-button" class="play-button">Play</button>
         </div>
 
-        <div class="panel">
-            <div class="panel-row">
-                <div class="square" id="1"></div>
-                <div class="square" id="2"></div>
-                <div class="square" id="3"></div>
+        <div id="game" class="game" style="display: none;"></div>
+            <div class="menu">
+                <div class="menu-time">
+                   <h2 style="color: red;">Time Left</h2>
+                   <h2 id="time-left">0</h2>
+                </div>
+
+                <div class="menu-score">
+                   <h2 style="color: red;">Your Score</h2>
+                   <h2 id="score">0</h2>
+                </div>
+
+                <div class="menu-lives">
+                   <img src="./src/images/player.png" alt="foto do jogador" height="60px" />
+                   <h2 id="life">x3</h2>
+                </div>
+            
             </div>
 
-            <div class="panel-row">
-                <div class="square" id="4"></div>
-                <div class="square" id="5"></div>
-                <div class="square" id="6"></div>
-            </div>
+            <div class="panel">
+                <div class="panel-row">
+                   <div class="square" id="1"></div>
+                   <div class="square" id="2"></div>
+                   <div class="square" id="3"></div>
+                </div>
 
-            <div class="panel-row">
-                <div class="square" id="7"></div>
-                <div class="square" id="8"></div>
-                <div class="square" id="9"></div>
+                <div class="panel-row">
+                   <div class="square" id="4"></div>
+                   <div class="square" id="5"></div>
+                   <div class="square" id="6"></div>
+                </div>
+
+                <div class="panel-row">
+                   <div class="square" id="7"></div>
+                   <div class="square" id="8"></div>
+                   <div class="square" id="9"></div>
+                </div>
             </div>
         </div>
     </div>

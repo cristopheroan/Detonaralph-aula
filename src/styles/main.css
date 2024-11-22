@@ -3,6 +3,8 @@
     flex-direction: column;
     height: 100vh;
     background-image: url("../images/wall.png");
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
@@ -46,4 +48,27 @@
 .menu-time h2:nth-child(2)
 .menu-score h2:nth-child(2){
     margin-top: 1rem;
+}
+
+.play-button {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    font-family: 'Press start 2P', Cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+}
+
+.play-button:hover {
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
+
+#menu {
+    justify-content: center;
+    align-items: center;
 }
